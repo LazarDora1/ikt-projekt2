@@ -82,13 +82,29 @@ h1 {
     text-transform: bold;
     text-decoration: none;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .ep {
-    font-size: 22px;
+    font-size: 23px;
     text-transform: bold;
     font-family: fantasy;
     text-align: center;
+}
+
+h2 {
+    color: #920000;
+    font-family: fantasy;
+    text-transform: bold;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 15px
+}
+
+li {
+    font-size: 20px;
+    margin-left: 15px
+    
 }
 

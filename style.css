@@ -60,6 +60,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 35px;
+    border-bottom: #920000 10px;
 }
 
 .overlay {
@@ -169,3 +170,6 @@ h5 {
     color: #920000;
 }
 
+.row{
+    margin-top: 21px;
+}

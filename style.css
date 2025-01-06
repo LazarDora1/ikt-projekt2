@@ -45,7 +45,7 @@ footer p {
 }
 
 .nav-links a:hover {
-    background-color: #fcc18a;
+    background-color: #C2BBB1;
     border-radius: 4px;
 }
 
@@ -96,15 +96,76 @@ h2 {
     color: #920000;
     font-family: fantasy;
     text-transform: bold;
-    text-decoration: none;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-left: 15px
+    text-align: center;
+    margin: 10px;
 }
 
 li {
     font-size: 20px;
     margin-left: 15px
     
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    background-color: #C2BBB1;
+    border-radius: 30px;
+    padding: 70px;
+    max-width: 830px;
+    margin: 0 auto;
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    text-align: justify;
+}
+
+.box img {
+    width: 200px;    
+    height: 200px;
+    border-radius: 43px;
+    object-fit: cover;
+    margin-left: 30px;
+    box-shadow: #000 2px 2px 3px;
+}
+
+@media (max-width: 768px) {
+    .box {
+        flex-direction: column;
+    }
+
+    .box img {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+}
+
+.gingerbread-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #920000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hot-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #920000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ul, li {
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+h5 {
+    text-align: center;
+    color: #920000;
 }
 

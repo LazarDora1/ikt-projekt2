@@ -72,8 +72,23 @@ body{
 }
 
 .center-image {
-    filter: none;
+    align-items: center;
     width: 275px;
-    margin-right: -14px;
+}
+
+h1 {
+    color: #920000;
+    font-family: fantasy;
+    text-transform: bold;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ep {
+    font-size: 22px;
+    text-transform: bold;
+    font-family: fantasy;
+    text-align: center;
 }
 

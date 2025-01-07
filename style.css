@@ -17,6 +17,7 @@ footer p {
     align-items: center;
     background-color: #FCF3E8;
     padding: 10px 20px;
+    border-bottom: #920000 10px solid;
 }
 
 * {

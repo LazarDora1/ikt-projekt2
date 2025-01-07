@@ -113,20 +113,17 @@ li {
     background-color: #C2BBB1;
     border-radius: 30px;
     padding: 70px;
-    max-width: 830px;
+    max-width: 1050px;
     margin: 0 auto;
     font-size: 34px;
     font-family: 'Gill Sans', 'Gill Sans MT';
     text-align: justify;
 }
 
-.box img {
-    width: 200px;    
-    height: 200px;
-    border-radius: 43px;
-    object-fit: cover;
-    margin-left: 30px;
-    box-shadow: #000 2px 2px 3px;
+#homesz{
+    color: #920000;
+    font-size: 30px;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {
@@ -172,4 +169,42 @@ h5 {
 
 .row{
     margin-top: 21px;
+}
+
+h3 {
+    color: black;
+    font-family: fantasy;
+    text-transform: bold;
+    text-align: center;
+
+}
+
+
+#home{
+    width: 1300px;
+    color: #FCF3E8;
+}
+
+#tree{
+    width: 500px;
+    object-fit: cover;
+    height: 556px;
+}
+
+.button {
+    background-color: #920000;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    border-radius: 60px;
+    padding: 15px;
+}
+
+.ph{
+    color: #000;
+    font-family: fantasy;
+    text-transform: bold;
+    text-align: center;
+    font-size: 23px;
+    margin: 30px;
 }
